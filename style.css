@@ -382,3 +382,50 @@ footer {
    }
 }
 
+
+@media ( max-width:992px) {
+
+    html{
+        font-size: 50%;
+    }
+}
+
+
+@media ( max-width: 768px) {
+
+    html{
+        font-size: 45%;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        paint-order: 0px 40px;
+
+    }
+
+    .content .list-menu {
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three{
+        width: 80%;
+        height: 2px;
+        background-color: white;
+        margin: 6px auto;
+        transition-duration:0.5s ;
+
+    }
+
+.menu-toggle{
+    width: 30px;
+    height: 30px;
+}
+
+    .itens-cardapio .info h4{
+        margin-left: 12rem;
+    }
+}
